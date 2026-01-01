@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F3F3F3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-cred {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding: 30px;
+}
+.signup-form-container {
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding: 30px;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto; 
+}
+.signup-form-container input:focus {
+    outline: none;
+    border: 2px solid #DA5CC7;
+}
+.form-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.form-top img{
+    width: 100%;
+    max-width: fit-content;
+}
+.form-top h2{
+    font-weight: 500;
+}
+.info-fields label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.info-fields input{
+    font-weight: 550;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+}
+
+.name input {
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.first-name,
+.last-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.em-pass {
+    margin-top: 15px;
+}
+.em-pass input{
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    font-size: 14px;
+    flex: 1;
+}
+.forg-pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forg-pass a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #DA5CC7;
+    font-weight: 600;
+}
+.input-eye{
+    display: flex;
+    position: relative;
+}
+
+.input-eye .eye{
+    border: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(0, -40%);
+    cursor: pointer;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.sgn-btn{
+    width: 100%;
+    padding: 7px 0  ;
+    background: #DA5CC7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.log-btn{
+    width: 100%;
+    padding: 7px 0  ;
+    background: #DA5CC7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.login-route {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-route a {
+    color: #DA5CC7;
+    text-decoration: none;
+}
+
