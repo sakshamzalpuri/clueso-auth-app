@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       console.log("Signup payload:", payload);
       window.location.href = "index.html";
-    
     });
   }
 

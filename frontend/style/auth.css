@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #F3F3F3;
+    background-color: #1b263b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -13,23 +13,50 @@ body {
     height: 100vh;
 }
 
-.form-cred {
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: 1px solid #DADADA;
-    padding: 30px;
-}
 .signup-form-container {
     border-radius: 10px;
-    border: 1px solid #DADADA;
-    padding: 30px;
     width: 100%;
-    max-width: 550px;
+    max-width: 1050px;
+    height: 70%;
     margin: 0 auto; 
+    display: flex;
+    background: #FFFFFF;
+}
+#signupForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loginForm{
+    width: 100%;
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+}
+#loginForm .form-cred{
+    width: 100%;
+    max-width: 400px;
+}
+.right-side{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit;
+}
+.right-side img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
 }
 .signup-form-container input:focus {
     outline: none;
-    border: 2px solid #DA5CC7;
+    border: 2px solid #7b2cbf;
+}
+.form-cred {
+    border-radius: 10px;
 }
 .form-top{
     display: flex;
@@ -44,14 +71,16 @@ body {
 }
 .form-top h2{
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .info-fields label {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 .info-fields input{
     font-weight: 550;
+    margin-bottom: 15px;
 }
 
 .name {
@@ -89,7 +118,7 @@ body {
 .forg-pass a{
     font-size: 15px;
     text-decoration: none;
-    color: #DA5CC7;
+    color: #7b2cbf;
     font-weight: 600;
 }
 .input-eye{
@@ -103,7 +132,7 @@ body {
     position: absolute;
     top: 50%;
     right: 2%;
-    transform: translate(0, -40%);
+    transform: translate(0, -80%);
     cursor: pointer;
 }
 .email{
@@ -119,7 +148,7 @@ body {
 .sgn-btn{
     width: 100%;
     padding: 7px 0  ;
-    background: #DA5CC7;
+    background: #7b2cbf;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -131,7 +160,7 @@ body {
 .log-btn{
     width: 100%;
     padding: 7px 0  ;
-    background: #DA5CC7;
+    background: #7b2cbf;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -148,7 +177,10 @@ body {
     font-weight: 600;
 }
 .login-route a {
-    color: #DA5CC7;
+    color: #7b2cbf;
     text-decoration: none;
 }
 
+
+/* 
+ */

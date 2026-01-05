@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style/auth.css" />
+    <link rel="stylesheet" href="/frontend/style/auth.css" />
   </head>
   <body>
     <section class="signup-form-container">
       <form action="#" method="post" id="signupForm">
-        <div class="form-top">
-          <img
-            src="e44306f6-f323-4d22-a673-2f0d54e096ec_c89b257e-e14d-465c-becc-35d8483114e5.png"
-            alt=""
-          />
-          <h2>Create an account</h2>
-        </div>
         <div class="form-cred">
+          <div class="form-top">
+            <img
+              src="/frontend/e44306f6-f323-4d22-a673-2f0d54e096ec_c89b257e-e14d-465c-becc-35d8483114e5.png"
+              alt=""
+            />
+            <h2>Create an account</h2>
+          </div>
           <div class="info-fields">
             <div class="name">
               <div class="first-name">
@@ -36,7 +36,12 @@
               <div class="pass">
                 <label for="">Password</label>
                 <div class="input-eye">
-                  <input name="password" type="password" id="signupPassword" required />
+                  <input
+                    name="password"
+                    type="password"
+                    id="signupPassword"
+                    required
+                  />
                   <button type="button" class="eye" id="eye">
                     <svg
                       viewBox="0 0 15 15"
@@ -55,16 +60,19 @@
                 </div>
               </div>
             </div>
-            <button class="sgn-btn" type="submit" id="sgnUp" >
+            <button class="sgn-btn" type="submit" id="sgnUp">
               Sign up with email
             </button>
           </div>
+          <p class="login-route">
+            Already have an account? <a href="/frontend/login.html">Log in</a>
+          </p>
         </div>
-        <p class="login-route">
-          Already have an account? <a href="login.html">Log in</a>
-        </p>
       </form>
+      <div class="right-side">
+        <img src="/frontend/assets/images/download.png" alt="Signup Image" />
+      </div>
     </section>
-    <script src="script/script.js" defer></script>
+    <script src="/frontend/script/script.js" defer></script>
   </body>
 </html>
