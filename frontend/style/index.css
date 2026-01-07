@@ -8,7 +8,7 @@
 
 body{
     font-family: "Bebas Neue", sans-serif;
-    background-color: #1b263b;
+    background-color: #0E1513;
 }
 
 header{
@@ -19,13 +19,14 @@ header{
     width: 100%;
     max-width: 1400px;
     padding: 15px 30px;
-    background-color: #669bbc;
+    background-color: #7b2cbf;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
 }
+
 
 .logo a {
     display: flex;
@@ -73,9 +74,98 @@ header{
     cursor: pointer;
     background-color: red;
     border-radius: 50%;
+    position: relative;
 }
 
 .toggle-apps img{
     width: 100%;
     height: 100%;
+}
+
+/*  */
+
+.user-info-overlay-toogle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0E1513;
+    border-radius:10px;
+    border:1px solid #bebcbc7c;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    cursor: default; 
+}
+
+.info-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom:1px solid #bebcbc7c;
+    padding: 8px;
+    width: 100%;
+}
+.avatar-logo{
+    width: 40px;
+    height: 40px;
+    background-color: #153206;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ffffffef;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffffef;
+}
+.user-email{
+    font-size: 13px;
+    color: #ffffffce;
+}
+
+.sett-log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.toggle-settings-container{
+    padding: 10px;
+    border-bottom:1px solid #bebcbc7c;
+    transition: all 0.2s ease-in-out;
+}
+.toggle-logout-container{
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.toggle-settings,.toggle-logout{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.toggle-settings{
+    color: #ffffffef;
+    cursor: default; 
+    border-radius: 8px;
+}
+.toggle-logout{
+    color: red;
+    cursor: default; 
+}
+.toggle-settings-container:hover {
+    background-color: #7b2cbf;
+    color: #bebcbc;
+    border-radius: 10px;
+}
+.toggle-logout-container:hover{
+    background-color: #7b2cbf;
+    color: #bebcbc;
+    border-radius: 10px;
+}
+.toggle-logout-container:hover .toggle-logout{
+    color: #bebcbc;
 }
